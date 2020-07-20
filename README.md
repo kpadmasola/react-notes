@@ -7,6 +7,7 @@
 - https://react-styleguidist.js.org/ for components
 - https://storybook.js.org/  components
 - https://www.styled-components.com CSS-in-JS styling for components (see Hands-on Web Development with React By Filip Danic)
+- axios for network calls
 
 ## starter code
 facebook's create-react-app gives us all the boilerplate, webpack, babel setup so that we can focus on writing the app.
