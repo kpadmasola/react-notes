@@ -8,3 +8,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "We did the thing!"
+
+
+  create_release:
+    name: Create Github Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            README.md
